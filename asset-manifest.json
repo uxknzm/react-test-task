@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-test-task/static/css/main.af71bf8b.css",
-    "main.js": "/react-test-task/static/js/main.ff098b46.js",
+    "main.js": "/react-test-task/static/js/main.d7150183.js",
     "static/js/787.28cb0dcd.chunk.js": "/react-test-task/static/js/787.28cb0dcd.chunk.js",
     "static/media/Vector.svg": "/react-test-task/static/media/Vector.6248d3d8040d9d32f3b2432453fe7fcc.svg",
     "static/media/logo3.svg": "/react-test-task/static/media/logo3.7a4802d7cb0fd382797a.svg",
@@ -9,11 +9,11 @@
     "index.html": "/react-test-task/index.html",
     "static/media/Vector1.svg": "/react-test-task/static/media/Vector1.6613c5ace244050d88fe1323849cdef8.svg",
     "main.af71bf8b.css.map": "/react-test-task/static/css/main.af71bf8b.css.map",
-    "main.ff098b46.js.map": "/react-test-task/static/js/main.ff098b46.js.map",
+    "main.d7150183.js.map": "/react-test-task/static/js/main.d7150183.js.map",
     "787.28cb0dcd.chunk.js.map": "/react-test-task/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.af71bf8b.css",
-    "static/js/main.ff098b46.js"
+    "static/js/main.d7150183.js"
   ]
 }
