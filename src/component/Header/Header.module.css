@@ -1,0 +1,80 @@
+.navbar {
+    background-color: #E4B062;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.logo_img {
+    background-image: url('../../assets/logo3.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 27px 0 27px 47px;
+    width: 280px;
+    height: 64px;
+}
+
+.nav__user {
+    display: flex;
+    padding-right: 45px;
+    align-items: center;
+}
+
+.nav__user_logout {
+    display: flex;
+    align-items: center;
+}
+
+.nav__user p {
+    padding-right: 34px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+
+    color: #000000;
+}
+
+.nav__user_logout img:nth-last-child(n+2) {
+    cursor: pointer;
+    width: 51px;
+    height: 55px;
+}
+
+.nav__user_logout img:last-child {
+    cursor: pointer;
+    transform: translate(-25px, 0);
+    transition: all 0.5s linear;
+}
+
+.nav__user_logout img:last-child:hover {
+    transform: translate(0, 0);
+    transition: all 0.5s linear;
+}
+
+@media screen and (max-width: 768px) {
+    .nav__user_nick {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .logo_img {
+        background-image: url('../../assets/logo1.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 27px 0 27px 47px;
+        width: 70px;
+        height: 63px;
+    }
+    .nav__user {
+        padding: 0;
+    }
+}
